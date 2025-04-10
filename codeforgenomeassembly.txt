@@ -1,0 +1,60 @@
+# Downloaded my assigned genome from the link provided. The files are in a 
+folder called genomeassembly on my desktop. 
+
+# Activated my environment with: conda activate genomeanalysis
+
+# Ran the following two commands: pwd and cd (dragged my genomeassembly 
+folder into terminal) 
+
+# Ran SPAdes v4.1.0 with the following code: spades.py -1 Ciara_1.fastq.gz 
+-2 Ciara_2.fastq.gz -o spadesout
+
+# Ran ABySS v2.3.7 with the following code: abyss-pe name=assembly k=96 
+B=2G in=‘Ciara_1.fastq.gz Ciara_2.fastq.gz’
+
+# Looked at abyss results with ls command.
+
+# Decluttered abyss results with the following command: mkdir abyssout
+mv assembly* abyssout/
+
+# Noted that we are interested in the assembly-scaffolds.fa and 
+assembly-stats.csv files.
+
+# Checked the quality of spades assembly using QUAST v5.3.0 with the 
+following code: quast.py spadesout/scaffolds.fasta -o quastspades
+
+# Checked the quality of abyss assembly using QUAST with the following 
+code: quast.py abyssout/assembly-scaffolds.fa -o quastabyss
+
+# Looked at both QUAST files and determined that the spades assembly was 
+the best fit. Screenshots of both quast reports were included in a 
+separate document. 
+
+# Ran barrnap v0.9 using the following code to pull rRNA sequences: 
+barrnap --kingdom bac spadesout/scaffolds.fasta > rRNAsequences.gff
+
+# Used bedtools v2.31.1 to pull fasta sequences using the following code: 
+bedtools getfasta -fi spadesout/scaffolds.fasta -bed rRNAsequences.gff -fo 
+rRNAsequences.fasta
+
+# Decluttered barrnap and bedtools results with the following command: 
+mkdir rRNAinfo
+mv rRNAs* rRNAinfo/
+
+# Used blastn to identify 16S rRNA sequence.
+Closest match: Vibrio cholerae
+
+# Ran DFAST v1.3.6 for protein annotation with the following code: dfast 
+--genome spadesout/scaffolds.fasta --out dfast_output
+
+# Protein annotation with RAST. Domain Bacteria, Genus Vibrio, species 
+cholerae, Genetics Code 11, RAST Annotation RASTtk
+
+# Average nucleotide identity with fastANI v1.34 with the following code: 
+neighbors/vulnificus.fasta
+neighbors/harveyi.fasta
+
+
+fastANI -q spadesout/scaffolds.fasta --rl neighbors.txt -o 
+vibrioneighbors.txt
+
