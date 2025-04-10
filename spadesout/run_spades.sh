@@ -1,0 +1,17 @@
+set -e
+true
+true
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/spades-hammer /Users/ciarablanco/Desktop/genomeassembly/spadesout/corrected/configs/config.info
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/python3 /Users/ciarablanco/miniconda3/envs/genomeanalysis/share/spades/spades_pipeline/scripts/compress_all.py --input_file /Users/ciarablanco/Desktop/genomeassembly/spadesout/corrected/corrected.yaml --ext_python_modules_home /Users/ciarablanco/miniconda3/envs/genomeanalysis/share/spades --max_threads 16 --output_dir /Users/ciarablanco/Desktop/genomeassembly/spadesout/corrected --gzip_output
+true
+true
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/spades-core /Users/ciarablanco/Desktop/genomeassembly/spadesout/K21/configs/config.info
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/spades-core /Users/ciarablanco/Desktop/genomeassembly/spadesout/K33/configs/config.info
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/spades-core /Users/ciarablanco/Desktop/genomeassembly/spadesout/K55/configs/config.info
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/spades-core /Users/ciarablanco/Desktop/genomeassembly/spadesout/K77/configs/config.info
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/spades-core /Users/ciarablanco/Desktop/genomeassembly/spadesout/K99/configs/config.info
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/spades-core /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/configs/config.info
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/python3 /Users/ciarablanco/miniconda3/envs/genomeanalysis/share/spades/spades_pipeline/scripts/copy_files.py /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/before_rr.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/before_rr.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/assembly_graph_after_simplification.gfa /Users/ciarablanco/Desktop/genomeassembly/spadesout/assembly_graph_after_simplification.gfa /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/final_contigs.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/contigs.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/first_pe_contigs.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/first_pe_contigs.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/strain_graph.gfa /Users/ciarablanco/Desktop/genomeassembly/spadesout/strain_graph.gfa /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/scaffolds.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/scaffolds.fasta /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/scaffolds.paths /Users/ciarablanco/Desktop/genomeassembly/spadesout/scaffolds.paths /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/assembly_graph_with_scaffolds.gfa /Users/ciarablanco/Desktop/genomeassembly/spadesout/assembly_graph_with_scaffolds.gfa /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/assembly_graph.fastg /Users/ciarablanco/Desktop/genomeassembly/spadesout/assembly_graph.fastg /Users/ciarablanco/Desktop/genomeassembly/spadesout/K127/final_contigs.paths /Users/ciarablanco/Desktop/genomeassembly/spadesout/contigs.paths
+true
+/Users/ciarablanco/miniconda3/envs/genomeanalysis/bin/python3 /Users/ciarablanco/miniconda3/envs/genomeanalysis/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py --result_scaffolds_filename /Users/ciarablanco/Desktop/genomeassembly/spadesout/scaffolds.fasta --misc_dir /Users/ciarablanco/Desktop/genomeassembly/spadesout/misc --threshold_for_breaking_scaffolds 3
+true

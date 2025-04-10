@@ -1,0 +1,7 @@
+- "left reads":
+  - "/Users/ciarablanco/Desktop/genomeassembly/Ciara_1.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/ciarablanco/Desktop/genomeassembly/Ciara_2.fastq.gz"
+  "type": "paired-end"

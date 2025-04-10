@@ -1,0 +1,76 @@
+# locus_id	locus_tag	location	classification	internal_stop	indel	ref_id	description	query_cov	ref_cov	identity
+MGA_61	LOCUS_00610	sequence001:80632..81306(-)	partial			WP_011267286.1	LuxR C-terminal-related transcriptional regulator	25.0	23.3	51.8
+MGA_68	LOCUS_00680	sequence001:89994..91412(+)	internal_stop_codon	91410..91412(+)		WP_000684941.1	methyl-accepting chemotaxis protein	100.0	61.3	97.5
+MGA_69	LOCUS_00690	sequence001:91422..92306(+)	internal_stop_codon	91410..91412(+)		WP_000684941.1	methyl-accepting chemotaxis protein	100.0	38.2	95.2
+MGA_150	LOCUS_01500	sequence001:181047..182594(+)	partial			WP_011104387.1	methyl-accepting chemotaxis protein	68.2	54.4	29.3
+MGA_239	LOCUS_02390	sequence001:275349..279176(-)	partial			WP_037155750.1	SIR2 family protein	69.4	67.0	25.2
+MGA_246	LOCUS_02460	sequence001:283144..284112(+)	partial			WP_000104945.1	helix-turn-helix domain-containing protein	47.8	47.6	37.3
+MGA_253	LOCUS_02530	sequence001:291276..292673(+)	partial			WP_011392987.1	ATP-binding protein	50.8	52.7	35.9
+MGA_254	LOCUS_02540	sequence001:292813..293640(-)	partial			WP_011073373.1	IS481-like element ISSod13 family transposase	92.0	73.1	83.8
+MGA_255	LOCUS_02550	sequence001:293744..294010(+)	frameshift		294004	WP_164925630.1	IS3-like element ISSod2 family transposase	98.9	24.3	95.4
+MGA_256	LOCUS_02560	sequence001:294004..294819(+)	frameshift		294004	WP_164925630.1	IS3-like element ISSod2 family transposase	100.0	75.7	90.0
+MGA_307	LOCUS_03070	sequence001:367797..368783(-)	internal_stop_codon	368850..368852(-)		WP_000744635.1	N-acetylglucosamine-binding protein GbpA	100.0	67.6	98.5
+MGA_308	LOCUS_03080	sequence001:368850..369254(-)	internal_stop_codon	368850..368852(-)		WP_000744635.1	N-acetylglucosamine-binding protein GbpA	100.0	27.6	97.8
+MGA_362	LOCUS_03620	sequence001:429493..429690(+)	partial			WP_005477197.1	hypothetical protein	72.3	66.2	59.6
+MGA_376	LOCUS_03760	sequence001:444973..446025(+)	partial			WP_003114437.1	BCCT family transporter	91.4	62.0	77.8
+MGA_380	LOCUS_03800	sequence001:451105..463008(-)	partial			WP_011104106.1	type I polyketide synthase	25.4	31.5	48.0
+MGA_384	LOCUS_03840	sequence001:472747..473718(-)	partial			WP_005796357.1	AraC family transcriptional regulator	32.2	31.0	42.3
+MGA_385	LOCUS_03850	sequence001:473875..474861(-)	partial			WP_005790222.1	AraC family transcriptional regulator	21.0	24.2	44.9
+MGA_424	LOCUS_04240	sequence002:47846..52621(-)	partial			WP_110731829.1	anthrax toxin-like adenylyl cyclase domain-containing protein	23.5	13.3	33.6
+MGA_485	LOCUS_04850	sequence002:127988..128176(+)	partial			WP_001303889.1	AlpA family transcriptional regulator	80.6	57.1	46.4
+MGA_486	LOCUS_04860	sequence002:128305..128466(+)	partial			WP_000903287.1	helix-turn-helix domain-containing protein	92.5	39.8	83.7
+MGA_487	LOCUS_04870	sequence002:128493..128819(+)	frameshift		128445	WP_011073373.1	IS481-like element ISSod13 family transposase	97.2	30.3	84.8
+MGA_502	LOCUS_05020	sequence002:144383..145201(-)	partial			WP_001302855.1	phage recombination protein Bet	70.6	67.4	54.4
+MGA_503	LOCUS_05030	sequence002:145281..145700(-)	partial			WP_011269089.1	single-stranded DNA-binding protein	97.1	71.6	39.3
+MGA_507	LOCUS_05070	sequence002:148490..149335(-)	frameshift		148570,148573	WP_021706804.1	IS5-like element ISVpa3 family transposase	91.8	84.3	84.9
+MGA_514	LOCUS_05140	sequence002:158006..158812(-)	partial			WP_005477792.1	AraC family transcriptional regulator	48.5	46.9	36.9
+MGA_515	LOCUS_05150	sequence002:159065..159454(+)	partial			WP_011262443.1	NirD/YgiW/YdeI family stress tolerance protein	72.1	75.8	48.9
+MGA_536	LOCUS_05360	sequence002:182071..183363(+)	partial			WP_001033587.1	phosphatidylinositol-specific phospholipase C	71.6	68.2	31.3
+MGA_547	LOCUS_05470	sequence002:193719..193886(-)	frameshift,internal_stop_codon	194044..194046(-),193957..193959(-),194143..194145(-)	194091	WP_001914695.1	extracellular solute-binding protein	74.5	6.8	90.2
+MGA_550	LOCUS_05500	sequence002:197479..201177(-)	partial			WP_000682729.1	IncHI-type conjugal transfer protein TrhN	35.6	43.9	25.8
+MGA_561	LOCUS_05610	sequence002:209457..210707(-)	partial			WP_011331475.1	TraB/VirB10 family protein	49.3	49.2	35.4
+MGA_570	LOCUS_05700	sequence002:216360..218510(-)	partial			WP_001011149.1	MobH family relaxase	32.4	23.9	28.3
+MGA_571	LOCUS_05710	sequence002:218858..219331(+)	frameshift,internal_stop_codon	218840..218842(+),219472..219474(+)	219585,219283,219380,219416,219453	WP_021706804.1	IS5-like element ISVpa3 family transposase	92.4	47.4	84.8
+MGA_574	LOCUS_05740	sequence002:220787..221086(+)	frameshift,internal_stop_codon	221084..221086(+)	221089,221179	WP_010946964.1	Y-family DNA polymerase	84.8	19.8	70.2
+MGA_1170	LOCUS_11700	sequence004:34824..35063(+)	partial			WP_001880857.1	YbaN family protein	100.0	59.8	98.7
+MGA_1484	LOCUS_14830	sequence004:399691..400263(+)	partial			WP_022771536.1	DUF1566 domain-containing protein	89.5	8.8	39.4
+MGA_1530	LOCUS_15290	sequence005:50505..51404(-)	frameshift		51528	WP_010895430.1	peptide chain release factor 2	100.0	81.9	99.7
+MGA_1671	LOCUS_16700	sequence005:215165..215509(+)	partial			WP_015039732.1	TraK family protein	66.7	81.5	46.1
+MGA_1676	LOCUS_16750	sequence005:218996..220090(+)	partial			WP_011815842.1	P-type conjugative transfer protein TrbL	85.4	68.2	40.6
+MGA_1678	LOCUS_16770	sequence005:220605..221330(+)	partial			WP_011074387.1	hypothetical protein	60.2	60.6	25.8
+MGA_1680	LOCUS_16790	sequence005:222504..223586(+)	partial			WP_011948477.1	thymidylate synthase	74.2	74.1	27.5
+MGA_1684	LOCUS_16830	sequence005:225671..226333(+)	partial			WP_013533245.1	hypothetical protein	66.8	75.0	47.3
+MGA_1762	LOCUS_17610	sequence005:315014..315493(-)	partial			WP_139685680.1	type II secretion system protein	58.5	56.6	57.1
+MGA_1875	LOCUS_18740	sequence006:104685..109730(+)	partial			WP_044287952.1	hypothetical protein	19.2	17.5	34.1
+MGA_1883	LOCUS_18820	sequence006:118541..119344(+)	partial			WP_217633758.1	restriction endonuclease	51.7	48.8	38.8
+MGA_2201	LOCUS_21990	sequence007:197357..197899(-)	partial			WP_000445380.1	anti-bacteriophage protein AbpA	95.6	31.4	40.0
+MGA_2225	LOCUS_22230	sequence008:30406..35739(+)	partial			WP_011707240.1	retention module-containing protein	50.9	17.5	39.7
+MGA_2262	LOCUS_22600	sequence008:70677..71210(+)	frameshift		71186	WP_005456739.1	hydroxyacylglutathione hydrolase	94.9	67.1	48.5
+MGA_2267	LOCUS_22650	sequence008:73649..74020(-)	frameshift		74034	WP_000543907.1	YkgB family protein	97.6	82.2	90.0
+MGA_2295	LOCUS_22930	sequence008:103234..103527(-)	internal_stop_codon	103531..103533(-)		WP_011263743.1	aldehyde dehydrogenase family protein	100.0	20.3	78.4
+MGA_2296	LOCUS_22940	sequence008:103531..104679(-)	internal_stop_codon	103531..103533(-)		WP_011263743.1	aldehyde dehydrogenase family protein	99.5	78.9	59.2
+MGA_2379	LOCUS_23770	sequence009:189..3794(-)	partial			WP_206819303.1	pullulanase-type alpha-1,6-glucosidase	84.0	74.2	51.2
+MGA_2625	LOCUS_26230	sequence010:63901..65112(+)	partial			WP_013094903.1	O-antigen ligase family protein	63.5	63.8	25.5
+MGA_2645	LOCUS_26430	sequence010:84289..85008(+)	partial			WP_013227478.1	glycosyltransferase	95.8	53.5	34.5
+MGA_2667	LOCUS_26650	sequence010:106719..107291(+)	partial			WP_010942630.1	TIGR03013 family PEP-CTERM/XrtA system glycosyltransferase	95.3	40.0	48.6
+MGA_2668	LOCUS_26660	sequence010:107276..108502(+)	partial			WP_001161827.1	capsular biosynthesis protein	43.9	44.6	29.7
+MGA_2677	LOCUS_26750	sequence010:117635..119101(+)	partial			WP_000579517.1	capsular polysaccharide biosynthesis protein	93.2	70.5	45.1
+MGA_2702	LOCUS_27000	sequence010:148722..151259(-)	partial			WP_011105274.1	glycosyltransferase	51.5	45.7	22.8
+MGA_2865	LOCUS_28630	sequence012:2087..2476(-)	partial			WP_001894072.1	translation initiation factor IF-3	100.0	70.5	90.7
+MGA_2946	LOCUS_29440	sequence012:96619..97023(+)	partial			WP_000445380.1	anti-bacteriophage protein AbpA	97.0	22.5	44.4
+MGA_3192	LOCUS_31900	sequence016:23570..24058(+)	partial			WP_032468650.1	ComF family protein	100.0	56.6	91.4
+MGA_3272	LOCUS_32700	sequence018:3638..4435(+)	partial			WP_055064297.1	DUF4123 domain-containing protein	74.0	73.2	48.7
+MGA_3306	LOCUS_33040	sequence018:39288..52526(+)	partial			WP_172625977.1	MARTX multifunctional-autoprocessing repeats-in-toxin holotoxin RtxA	44.6	43.4	96.1
+MGA_3338	LOCUS_33350	sequence019:30431..30760(-)	internal_stop_codon	30776..30778(-)		WP_001277448.1	PAS domain-containing methyl-accepting chemotaxis protein	100.0	21.0	98.2
+MGA_3339	LOCUS_33360	sequence019:30776..31993(-)	internal_stop_codon	30776..30778(-)		WP_001277448.1	PAS domain-containing methyl-accepting chemotaxis protein	100.0	77.9	97.5
+MGA_3415	LOCUS_34100	sequence024:2589..2798(+)	partial			WP_005477614.1	hypothetical protein	84.1	67.9	55.2
+MGA_3426	LOCUS_34210	sequence025:1403..2179(-)	partial			WP_017872006.1	FRG domain-containing protein	44.2	44.2	29.9
+MGA_3460	LOCUS_34510	sequence028:3702..4256(-)	partial			WP_005462179.1	hypothetical protein	31.0	21.9	57.9
+MGA_3488	LOCUS_34750	sequence034:476..715(+)	partial			WP_000843587.1	type II toxin-antitoxin system RelE/ParE family toxin	100.0	71.8	92.4
+MGA_3503	LOCUS_34880	sequence039:1237..2049(+)	partial			WP_000573030.1	DUF4393 domain-containing protein	72.6	69.4	26.7
+MGA_3517	LOCUS_34980	sequence047:592..888(-)	frameshift		857	WP_011263568.1	GNAT family N-acetyltransferase	86.7	51.8	63.5
+MGA_3518	LOCUS_34990	sequence047:831..1097(-)	frameshift		857	WP_011263568.1	GNAT family N-acetyltransferase	89.8	48.2	48.1
+MGA_3528	LOCUS_35060	sequence053:166..663(-)	frameshift,internal_stop_codon	165..167(-)	704	WP_005477402.1	AraC family transcriptional regulator	100.0	53.7	70.9
+MGA_3626	LOCUS_35240	sequence129:250..390(+)	internal_stop_codon	247..249(+)		WP_000414891.1	ferric ABC transporter ATP-binding protein	100.0	13.1	97.8
+MGA_3627	LOCUS_35250	sequence130:1..438(+)	internal_stop_codon	436..438(+)		WP_005454276.1	anion permease	100.0	31.0	74.5
+MGA_3696	LOCUS_35300	sequence189:132..368(+)	partial			WP_014164108.1	hypothetical protein	98.7	67.5	63.3

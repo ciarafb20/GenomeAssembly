@@ -1,0 +1,2 @@
+spadesout/scaffolds.fasta	neighbors/vulnificus.fasta	79.1288	401	1317
+spadesout/scaffolds.fasta	neighbors/harveyi.fasta	78.581	342	1317
